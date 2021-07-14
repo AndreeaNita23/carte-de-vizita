@@ -1,0 +1,81 @@
+.profile-card {
+  background-color: rgb(204, 0, 0);
+}
+
+.head, .content, .contact {
+  background-color: hsl(0, 100%, 55%);
+}
+
+.name-headline, .about, .links, .profile-image, .travel-image {
+  background-color: hsl(0, 100%, 55%);
+}
+
+/* Pozitionare */
+
+.profile-card {
+  height: 500px;
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  border: 1px solid black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.head {
+  height: 200px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -50px;
+  box-shadow: 10px 10px 25px black;
+  border: 1px solid black;
+}
+
+.name-headline {
+  height: 100%;
+  width: 220px;
+}
+
+#img1 {
+  margin-top: 10px;
+  height: 180px;
+  width: 160px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+ 
+.right {
+  float: right;
+}
+
+.content {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 10px 10px 25px black;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.contact {
+  width: 90%;
+  height: 120px;
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
